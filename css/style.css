@@ -17,11 +17,12 @@
 .navbar{
 	width: 524px;
 }
-.navbar-ul li a{
+.nav-ul li a{
 	font-size: 18px;
 	font-family: 'Brandon Grotesque regular', sans-serif;
 	line-height: 40px;
 	color: #7F7F7F;
+
 }
 
 .icons{
@@ -29,6 +30,7 @@
 }
 .media{
 	margin-right: 5px;
+
 }
 .about{
 	position: relative;
@@ -113,7 +115,7 @@
 	text-decoration: none;
 }
 .footer{
-background-color: #306B34;
+    background-color: #306B34;
 	padding: 15px 50px;
 }
 .privacy{
@@ -126,12 +128,12 @@ background-color: #306B34;
 .navbar-1 {
 	width: 275px;
 }
-.footer-ul li {
+.footer-ul li  {
 	font-size: 10px;
 	font-family: 'Brandon Grotesque regular', sans-serif;
 	line-height: 45px;
-	/*display: flex;
-	align-items: center;*/
+	display: flex;
+	align-items: center;
 }
 .footer-ul li a {
 	color: #FFFFFF;
