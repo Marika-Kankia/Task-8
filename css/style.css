@@ -1,14 +1,4 @@
 
-.main-1{
-	display: flex;
-	justify-content:space-between;
-	align-items: center;
-}
-.main-2{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
 
 .container{
 	display: flex;
@@ -27,19 +17,15 @@
 .navbar{
 	width: 524px;
 }
-.icons{
-	width:127px; 
-}
 .navbar-ul li a{
 	font-size: 18px;
 	font-family: 'Brandon Grotesque regular', sans-serif;
 	line-height: 40px;
-	text-transform: uppercase;
 	color: #7F7F7F;
-
 }
-.nav-ul li a{
-	text-decoration: none;
+
+.icons{
+	width:127px; 
 }
 .media{
 	margin-right: 5px;
@@ -49,8 +35,7 @@
 	background-image: url("../images/Banner.jpg");
 	width: 100%;
 	height: 938px;
-	background-position: center; 
-  	background-repeat: no-repeat; 
+	background-position: center;  
   	background-size: cover;
   	margin-top: 30px;
 }
@@ -58,18 +43,18 @@
 	position: absolute;
 	bottom: 20%;
 	left: 50%;
-	transform: translateX(-50%);
-	text-align: center;
 	width: 706px;
 	height: 187px;
 	background-color: #fff;
+	transform: translateX(-50%);
+	text-align: center;
 }
 
 .div-class h3{
 	font-size: 40px;
 	font-family: 'Kazimir-RegularItalic', sans-serif;
 	line-height: 50px;
-	letter-spacing: 0.9px;
+	letter-spacing: 0.8px;
 	color: #19381F;
 }
 .aesthetic{
@@ -144,7 +129,19 @@ background-color: #306B34;
 	font-size: 10px;
 	font-family: 'Brandon Grotesque regular', sans-serif;
 	line-height: 45px;
+	/*display: flex;
+	align-items: center;*/
 }
 .footer-ul li a {
 	color: #FFFFFF;
+}
+.main-1{
+	display: flex;
+	justify-content:space-between;
+	align-items: center;
+}
+.main-2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
